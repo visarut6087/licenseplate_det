@@ -10,7 +10,7 @@ from ultralytics import YOLO
 
 ROOT = Path(__file__).resolve().parent.parent
 
-VIDEO_PATH = ROOT / "test_video.mp4"
+VIDEO_PATH = ROOT / "test2.mp4"
 RUNS_DIR = ROOT / "runs" / "detect"
 
 OUTPUT_DIR = ROOT / "results" / "video_test"
